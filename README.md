@@ -40,10 +40,10 @@ F -- MATCH/ERROR --> I[Flag for Human Review]
 
 *   **Language:** Python 3
 *   **LLM API:** OpenAI GPT-4-turbo / GPT-3.5-turbo
-*   **Cloud Runtime:** AWS Lambda (Serverless)
-*   **Orchestration:** AWS EventBridge (Rule-based triggering)
+*   **Cloud Runtime:** AWS/Azure/GCP Lambda/Functions (Serverless)
+*   **Orchestration:** AWS/Azure/GCP EventBridge (Rule-based triggering)
 *   **API Client:** `requests` for Manatal & OpenAI APIs
-*   **Secrets Management:** AWS Secrets Manager
+*   **Secrets Management:** AWS/Azure/GCP Secrets Manager/Key Vault/
 *   **Version Control:** GitHub
 
 ---
@@ -64,7 +64,7 @@ F -- MATCH/ERROR --> I[Flag for Human Review]
 
 1.  A Manatal account with access to its API.
 2.  An OpenAI API key.
-3.  An AWS account (for deployment).
+3.  Any Cloud account (for deployment).
 
 ### Installation & Setup
 
